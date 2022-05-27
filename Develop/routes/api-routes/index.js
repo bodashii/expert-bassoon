@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const noteNavi = require('../api-routes/note-navi');
+const noteNavi = require('./note-navi');
 
 router.use(noteNavi);
 
